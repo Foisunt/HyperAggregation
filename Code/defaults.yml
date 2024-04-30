@@ -1,0 +1,45 @@
+act:
+- gelu
+base_optim:
+- Adam_0.01
+epochs:
+- 10000
+early_stopping_patience:
+- 50
+ln_aff:
+- false
+norm:
+- ln
+record_train:
+- false
+batch_size:
+- 1x1
+batch_size_val:
+- 1
+cat_c:
+- false
+dist_emb:
+- false
+drop_adj:
+- 0
+fuse_mix:
+- true
+fw:
+- split
+num_N:
+- - 256
+  - 64
+norm_in:
+- true
+save_models:
+- false
+statrep:
+- 10
+skip_mix:
+- true
+tr_mid:
+- true
+tr_agg_in:
+- true
+transform_ds:
+- false
