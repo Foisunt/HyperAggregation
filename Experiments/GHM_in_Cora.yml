@@ -1,0 +1,42 @@
+base_optim:
+- Adam_0.01
+batch_size:
+- 30x1
+batch_size_test:
+- 1
+batch_size_val:
+- 1
+dataset:
+- Cora
+drop_input:
+- 0.0
+drop_mix:
+- 0.0
+drop_model:
+- 0.7
+ds_self:
+- true
+ds_undir:
+- true
+model:
+- MIXB_2_512_32
+model_type:
+- lin
+norm_in:
+- false
+num_N:
+- - 256
+  - 32
+save_models:
+- false
+setup:
+- ind-82
+statrep:
+- 10
+tr_agg_in:
+- false
+tr_mid:
+- true
+weight_decay:
+- 0.001
+

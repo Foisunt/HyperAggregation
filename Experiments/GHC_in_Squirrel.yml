@@ -1,0 +1,42 @@
+aggr_mean:
+- true
+base_optim:
+- Adam_0.0001
+batch_size:
+- 1x10
+batch_size_test:
+- full
+batch_size_val:
+- full
+dataset:
+- Squirrel
+drop_input:
+- 0.2
+drop_mix:
+- 0.2
+drop_model:
+- 0.0
+ds_self:
+- false
+ds_undir:
+- true
+model:
+- HCM_1_256_64
+model_type:
+- lin
+norm_in:
+- true
+num_N:
+- - 256
+save_models:
+- false
+setup:
+- ind-real
+statrep:
+- 10
+tr_agg_in:
+- false
+tr_mid:
+- true
+weight_decay:
+- 0.001

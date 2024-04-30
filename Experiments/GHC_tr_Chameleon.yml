@@ -1,0 +1,43 @@
+aggr_mean:
+- true
+base_optim:
+- Adam_0.001
+batch_size:
+- 1x10
+batch_size_test:
+- full
+batch_size_val:
+- full
+dataset:
+- Chameleon
+drop_input:
+- 0.0
+drop_mix:
+- 0.0
+drop_model:
+- 0.1
+ds_self:
+- false
+ds_undir:
+- true
+model:
+- HCM_1_512_8
+model_type:
+- lin
+norm_in:
+- false
+num_N:
+- - 256
+save_models:
+- false
+setup:
+- transd
+statrep:
+- 10
+tr_agg_in:
+- true
+tr_mid:
+- false
+weight_decay:
+- 0.01
+

@@ -1,0 +1,42 @@
+base_optim:
+- Adam_0.001
+batch_size:
+- 30x1
+batch_size_test:
+- 1
+batch_size_val:
+- 1
+dataset:
+- Actor
+drop_input:
+- 0.1
+drop_mix:
+- 0.0
+drop_model:
+- 0.8
+ds_self:
+- false
+ds_undir:
+- true
+model:
+- MIXB_2_512_32
+model_type:
+- res
+norm_in:
+- false
+num_N:
+- - 256
+  - 32
+save_models:
+- false
+setup:
+- ind-real
+statrep:
+- 10
+tr_agg_in:
+- false
+tr_mid:
+- true
+weight_decay:
+- 0.0001
+

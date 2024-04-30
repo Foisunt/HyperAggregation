@@ -1,0 +1,40 @@
+aggr_mean:
+- true
+base_optim:
+- Adam_0.001
+batch_size:
+- 256
+dataset:
+- CIFAR10
+drop_adj:
+- 0
+drop_input:
+- 0.0
+drop_mix:
+- 0.2
+drop_model:
+- 0.2
+ds_self:
+- true
+ds_undir:
+- false
+early_stopping_patience:
+- 50
+model:
+- HCM_5_128_16
+model_type:
+- lin
+norm_in:
+- false
+save_models:
+- false
+setup:
+- ind-gra
+statrep:
+- 3
+tr_agg_in:
+- true
+tr_mid:
+- false
+weight_decay:
+- 0.01

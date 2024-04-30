@@ -1,0 +1,36 @@
+base_optim:
+- Adam_0.001
+batch_size:
+- 256
+batch_size_test:
+- full
+batch_size_val:
+- full
+dataset:
+- CIFAR10
+drop_adj:
+- 0
+drop_input:
+- 0
+drop_model:
+- 0
+ds_self:
+- true
+ds_undir:
+- false
+early_stopping_patience:
+- 50
+epochs:
+- 10000
+model:
+- MLP_6_512
+model_type:
+- lin
+norm_in:
+- false
+setup:
+- ind-gra
+statrep:
+- 3
+weight_decay:
+- 0

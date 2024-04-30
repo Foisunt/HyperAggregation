@@ -1,0 +1,47 @@
+base_optim:
+- Adam_0.001
+batch_size:
+- 10x1
+batch_size_test:
+- 1
+batch_size_val:
+- 1
+cat_c:
+- false
+dataset:
+- Photo
+dist_emb:
+- false
+drop_adj:
+- 0
+drop_input:
+- 0.2
+drop_mix:
+- 0
+drop_model:
+- 0.7
+ds_self:
+- false
+ds_undir:
+- true
+fuse_mix:
+- true
+model:
+- MIXB_1_128_64
+model_type:
+- lin
+num_N:
+- - 256
+  - 32
+save_models:
+- false
+setup:
+- transd
+statrep:
+- 10
+tr_agg_in:
+- false
+tr_mid:
+- false
+weight_decay:
+- 0.0001

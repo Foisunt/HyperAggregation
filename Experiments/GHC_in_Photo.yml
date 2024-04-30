@@ -1,0 +1,47 @@
+aggr_mean:
+- false
+base_optim:
+- Adam_0.001
+batch_size:
+- 1x100
+batch_size_test:
+- full
+batch_size_val:
+- full
+dataset:
+- Photo
+dist_emb:
+- false
+drop_adj:
+- 0
+drop_input:
+- 0.3
+drop_mix:
+- 0.1
+drop_model:
+- 0.6
+ds_self:
+- true
+ds_undir:
+- true
+model:
+- HCM_2_64_32
+model_type:
+- lin
+norm_in:
+- true
+num_N:
+- - 256
+  - 64
+save_models:
+- false
+setup:
+- ind-82
+skip_mix:
+- true
+statrep:
+- 10
+tr_agg_mix:
+- false
+weight_decay:
+- 0.1

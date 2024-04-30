@@ -1,0 +1,32 @@
+base_optim:
+- Adam_0.001
+batch_size:
+- full
+batch_size_test:
+- full
+batch_size_val:
+- full
+dataset:
+- Actor
+drop_adj:
+- 0
+drop_input:
+- 0.1
+drop_model:
+- 0.7
+ds_self:
+- false
+ds_undir:
+- false
+model:
+- MLP_4_256
+model_type:
+- lin
+num_N:
+- - 0
+setup:
+- transd
+statrep:
+- 10
+weight_decay:
+- 1.0e-05

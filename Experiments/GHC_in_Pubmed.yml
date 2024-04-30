@@ -1,0 +1,47 @@
+aggr_mean:
+- false
+base_optim:
+- Adam_0.001
+batch_size:
+- 1x10
+batch_size_test:
+- 30
+batch_size_val:
+- 30
+dataset:
+- PubMed
+dist_emb:
+- false
+drop_adj:
+- 0
+drop_input:
+- 0.2
+drop_mix:
+- 0.1
+drop_model:
+- 0.7
+ds_self:
+- true
+ds_undir:
+- true
+model:
+- HCM_2_1024_32
+model_type:
+- lin
+norm_in:
+- true
+num_N:
+- - 256
+  - 32
+save_models:
+- false
+setup:
+- ind-82
+statrep:
+- 10
+tr_agg_in:
+- true
+tr_mid:
+- false
+weight_decay:
+- 0

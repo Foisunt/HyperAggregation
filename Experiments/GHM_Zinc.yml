@@ -1,0 +1,42 @@
+base_optim:
+- Adam_0.001
+batch_size:
+- 256
+batch_size_test:
+- full
+batch_size_val:
+- full
+dataset:
+- ZINC
+drop_adj:
+- 0
+drop_input:
+- 0
+drop_mix:
+- 0
+drop_model:
+- 0
+ds_self:
+- true
+ds_undir:
+- false
+early_stopping_patience:
+- 50
+epochs:
+- 10000
+model:
+- MIXB_2_128_16
+model_type:
+- lin
+norm_in:
+- false
+setup:
+- ind-gra
+statrep:
+- 3
+tr_agg_in:
+- false
+tr_mid:
+- true
+weight_decay:
+- 0.0001

@@ -1,0 +1,44 @@
+aggr_mean:
+- true
+base_optim:
+- Adam_0.0001
+batch_size:
+- 1x10
+batch_size_test:
+- 100
+batch_size_val:
+- 100
+dataset:
+- Computers
+drop_input:
+- 0
+drop_mix:
+- 0.1
+drop_model:
+- 0.8
+ds_self:
+- true
+ds_undir:
+- true
+model:
+- HCM_2_128_32
+model_type:
+- res
+norm_in:
+- true
+num_N:
+- - 256
+  - 32
+save_models:
+- false
+setup:
+- ind-82
+statrep:
+- 10
+tr_agg_in:
+- true
+tr_mid:
+- true
+weight_decay:
+- 0.01
+

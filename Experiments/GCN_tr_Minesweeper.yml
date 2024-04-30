@@ -1,0 +1,30 @@
+base_optim:
+- Adam_0.01
+batch_size:
+- full
+batch_size_test:
+- full
+batch_size_val:
+- full
+dataset:
+- Minesweeper
+drop_adj:
+- 0
+drop_input:
+- 0.1
+drop_model:
+- 0.3
+ds_self:
+- false
+ds_undir:
+- true
+model:
+- GCN_4_32
+model_type:
+- res
+setup:
+- transd
+statrep:
+- 10
+weight_decay:
+- 1.0e-05

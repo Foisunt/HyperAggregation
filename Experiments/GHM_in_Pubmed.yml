@@ -1,0 +1,47 @@
+base_optim:
+- Adam_0.001
+batch_size:
+- 10x1
+batch_size_test:
+- 1
+batch_size_val:
+- 1
+cat_c:
+- false
+dataset:
+- PubMed
+dist_emb:
+- false
+drop_adj:
+- 0
+drop_input:
+- 0.0
+drop_mix:
+- 0
+drop_model:
+- 0.6
+ds_self:
+- false
+ds_undir:
+- true
+fuse_mix:
+- true
+model:
+- MIXB_3_256_32
+model_type:
+- res
+num_N:
+- - 256
+  - 32
+save_models:
+- false
+setup:
+- ind-82
+statrep:
+- 10
+tr_agg_in:
+- true
+tr_mid:
+- false
+weight_decay:
+- 1.0e-05

@@ -1,0 +1,30 @@
+base_optim:
+- Adam_0.001
+batch_size:
+- full
+batch_size_test:
+- full
+batch_size_val:
+- full
+dataset:
+- Chameleon
+drop_adj:
+- 0
+drop_input:
+- 0
+drop_model:
+- 0.3
+ds_self:
+- false
+ds_undir:
+- true
+model:
+- GCN_2_512
+model_type:
+- lin
+setup:
+- transd
+statrep:
+- 10
+weight_decay:
+- 0

@@ -1,0 +1,44 @@
+aggr_mean:
+- false
+base_optim:
+- Adam_0.001
+batch_size:
+- full
+batch_size_test:
+- full
+batch_size_val:
+- full
+dataset:
+- Roman-empire
+dist_emb:
+- false
+drop_adj:
+- 0
+drop_input:
+- 0.3
+drop_mix:
+- 0.1
+drop_model:
+- 0.3
+ds_self:
+- false
+ds_undir:
+- true
+model:
+- HCM_3_256_32
+model_type:
+- res
+norm_in:
+- true
+save_models:
+- false
+setup:
+- transd
+statrep:
+- 10
+tr_agg_in:
+- true
+tr_mid:
+- false
+weight_decay:
+- 0.0001

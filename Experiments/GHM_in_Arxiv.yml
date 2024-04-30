@@ -1,0 +1,49 @@
+base_optim:
+- Adam_0.001
+batch_size:
+- 100x1
+batch_size_test:
+- 1
+batch_size_val:
+- 1
+cat_c:
+- false
+dataset:
+- Arxiv
+dist_emb:
+- false
+drop_adj:
+- 0
+drop_input:
+- 0
+drop_mix:
+- 0
+drop_model:
+- 0.3
+ds_self:
+- true
+ds_undir:
+- true
+early_stopping_patience:
+- 5
+fuse_mix:
+- true
+model:
+- MIXB_2_256_32
+model_type:
+- lin
+num_N:
+- - 256
+  - 32
+save_models:
+- false
+setup:
+- ind-real
+statrep:
+- 3
+tr_agg_in:
+- false
+tr_mid:
+- false
+weight_decay:
+- 1.0e-05

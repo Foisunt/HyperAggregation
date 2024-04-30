@@ -1,0 +1,30 @@
+base_optim:
+- Adam_0.01
+batch_size:
+- full
+batch_size_test:
+- full
+batch_size_val:
+- full
+dataset:
+- Squirrel
+drop_adj:
+- 0
+drop_input:
+- 0.2
+drop_model:
+- 0.7
+ds_self:
+- false
+ds_undir:
+- true
+model:
+- GCN_2_512
+model_type:
+- lin
+setup:
+- ind-real
+statrep:
+- 10
+weight_decay:
+- 0.0001

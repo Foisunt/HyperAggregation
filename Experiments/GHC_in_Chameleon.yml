@@ -1,0 +1,45 @@
+aggr_mean:
+- false
+base_optim:
+- Adam_0.001
+batch_size:
+- full
+batch_size_test:
+- full
+batch_size_val:
+- full
+dataset:
+- Chameleon
+dist_emb:
+- false
+drop_adj:
+- 0
+drop_input:
+- 0.0
+drop_mix:
+- 0.2
+drop_model:
+- 0.5
+ds_self:
+- true
+ds_undir:
+- true
+model:
+- HCM_2_256_32
+model_type:
+- lin
+norm_in:
+- true
+save_models:
+- false
+setup:
+- ind-real
+skip_mix:
+- true
+statrep:
+- 10
+tr_agg_mix:
+- false
+weight_decay:
+- 0
+

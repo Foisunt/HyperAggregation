@@ -1,0 +1,40 @@
+base_optim:
+- Adam_0.0001
+batch_size:
+- 32
+cat_c:
+- false
+dataset:
+- MNIST
+drop_adj:
+- 0
+drop_input:
+- 0.0
+drop_mix:
+- 0
+drop_model:
+- 0.1
+ds_self:
+- true
+ds_undir:
+- false
+early_stopping_patience:
+- 50
+model:
+- MIXB_5_256_32
+model_type:
+- lin
+norm_in:
+- false
+save_models:
+- false
+setup:
+- ind-gra
+statrep:
+- 3
+tr_agg_in:
+- false
+tr_mid:
+- false
+weight_decay:
+- 0.001

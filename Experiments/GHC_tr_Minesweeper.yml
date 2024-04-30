@@ -1,0 +1,44 @@
+aggr_mean:
+- true
+base_optim:
+- Adam_0.001
+batch_size:
+- full
+batch_size_test:
+- full
+batch_size_val:
+- full
+dataset:
+- Minesweeper
+dist_emb:
+- false
+drop_adj:
+- 0
+drop_input:
+- 0.2
+drop_mix:
+- 0.0
+drop_model:
+- 0.4
+ds_self:
+- false
+ds_undir:
+- true
+model:
+- HCM_3_64_16
+model_type:
+- res
+norm_in:
+- true
+save_models:
+- false
+setup:
+- transd
+statrep:
+- 10
+tr_agg_in:
+- false
+tr_mid:
+- true
+weight_decay:
+- 0.01

@@ -1,0 +1,47 @@
+base_optim:
+- Adam_0.001
+batch_size:
+- 100x1
+batch_size_test:
+- 1
+batch_size_val:
+- 1
+cat_c:
+- false
+dataset:
+- Squirrel
+dist_emb:
+- false
+drop_adj:
+- 0
+drop_input:
+- 0
+drop_mix:
+- 0
+drop_model:
+- 0.1
+ds_self:
+- true
+ds_undir:
+- true
+fuse_mix:
+- true
+model:
+- MIXB_3_128_32
+model_type:
+- lin
+num_N:
+- - 256
+  - 32
+save_models:
+- false
+setup:
+- transd
+statrep:
+- 10
+tr_agg_in:
+- false
+tr_mid:
+- true
+weight_decay:
+- 0.0001

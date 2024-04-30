@@ -1,0 +1,44 @@
+aggr_mean:
+- true
+base_optim:
+- Adam_0.001
+batch_size:
+- 1x10
+batch_size_test:
+- full
+batch_size_val:
+- full
+dataset:
+- Cora
+drop_input:
+- 0.0
+drop_mix:
+- 0.0
+drop_model:
+- 0.8
+ds_self:
+- true
+ds_undir:
+- true
+model:
+- HCM_2_256_64
+model_type:
+- lin
+norm_in:
+- false
+num_N:
+- - 256
+  - 32
+save_models:
+- false
+setup:
+- ind-82
+statrep:
+- 10
+tr_agg_in:
+- false
+tr_mid:
+- true
+weight_decay:
+- 0.01
+

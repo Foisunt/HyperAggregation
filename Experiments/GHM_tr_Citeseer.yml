@@ -1,0 +1,42 @@
+base_optim:
+- Adam_0.001
+batch_size:
+- 30x1
+batch_size_test:
+- 1
+batch_size_val:
+- 1
+dataset:
+- CiteSeer
+drop_input:
+- 0.1
+drop_mix:
+- 0.2
+drop_model:
+- 0.6
+ds_self:
+- true
+ds_undir:
+- true
+model:
+- MIXB_2_256_16
+model_type:
+- res
+norm_in:
+- true
+num_N:
+- - 256
+  - 32
+save_models:
+- false
+setup:
+- transd
+statrep:
+- 10
+tr_agg_in:
+- true
+tr_mid:
+- true
+weight_decay:
+- 0.1
+
