@@ -1,7 +1,7 @@
 # HyperAggregation
-This is the git repo for the IJCNN '24 paper HyperAggregation: Aggregating over Graph Edges with Hypernetworks
+This is the git repo for the paper HyperAggregation: Aggregating over Graph Edges with Hypernetworks, accepted at IJCNN 2024.
 
-A link to the paper will be provided once available
+A preprint is available on arXiv: https://arxiv.org/abs/2407.11596
 
 The Code directory contains the code necessary to preprocess the data, train the models for all results reportet in the paper.
 The Experiments directory contains one file pre number in the paper with the hyperparameters to train that model.
